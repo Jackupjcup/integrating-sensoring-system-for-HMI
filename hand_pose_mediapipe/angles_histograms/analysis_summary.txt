@@ -1,0 +1,77 @@
+ANGLES DISTRIBUTION ANALYSIS SUMMARY
+=====================================
+
+Dataset: total_dataset.csv
+Samples: 8165
+Angles per sample: 14
+Value range: All angles are normalized to [0, 1] range
+
+KEY FINDINGS
+------------
+
+1. OVERALL STATISTICS:
+   - All angles have values between 0.34 and 1.0 (approximately)
+   - Mean values range from 0.710 (Angle 10) to 0.892 (Angle 2)
+   - Standard deviations range from 0.057 (Angle 1) to 0.189 (Angle 13)
+
+2. MOST STABLE ANGLES (Lowest variability):
+   - Angle 1:  Mean=0.884, Std=0.057, Range=0.243
+   - Angle 2:  Mean=0.891, Std=0.065, Range=0.238
+   - Angle 12: Mean=0.860, Std=0.115, Range=0.396
+
+3. MOST VARIABLE ANGLES (Highest variability):
+   - Angle 13: Mean=0.777, Std=0.189, Range=0.637
+   - Angle 10: Mean=0.710, Std=0.189, Range=0.651
+   - Angle 7:  Mean=0.722, Std=0.167, Range=0.605
+
+4. DISTRIBUTION CHARACTERISTICS:
+   - Most angles show unimodal distributions
+   - Some angles show skewness (e.g., Angle 14 has median=0.921 > mean=0.843)
+   - No extreme outliers observed in box plots
+   - Distributions appear continuous without gaps
+
+DETAILED STATISTICS PER ANGLE
+-----------------------------
+
+Angle   Mean    Std     Min     Max     Range   Median
+-----   ----    ---     ---     ---     -----   ------
+1       0.884   0.057   0.756   0.999   0.243   0.877
+2       0.891   0.065   0.761   0.999   0.238   0.883
+3       0.733   0.150   0.442   0.966   0.524   0.776
+4       0.754   0.153   0.431   0.999   0.568   0.736
+5       0.821   0.127   0.559   0.999   0.441   0.808
+6       0.752   0.144   0.465   0.994   0.529   0.792
+7       0.722   0.167   0.394   0.999   0.605   0.709
+8       0.812   0.123   0.565   0.999   0.435   0.784
+9       0.813   0.136   0.526   0.999   0.472   0.849
+10      0.710   0.189   0.348   0.999   0.651   0.704
+11      0.827   0.123   0.605   1.000   0.395   0.809
+12      0.860   0.115   0.603   0.999   0.396   0.893
+13      0.777   0.189   0.361   0.998   0.637   0.850
+14      0.843   0.152   0.382   0.999   0.617   0.921
+
+GENERATED FILES
+---------------
+
+1. angles_distribution_report.txt - Detailed statistical report
+2. angles_statistics.json - JSON format statistics
+3. angle_{1-14}_histogram.png - Individual histograms (14 files)
+4. all_angles_histograms_combined.png - 2×7 grid of all histograms
+5. angles_boxplot_comparison.png - Box plot comparing all angles
+6. angles_kde_density.png - Kernel Density Estimation plots
+
+INTERPRETATION NOTES
+--------------------
+
+- Angles appear to represent normalized joint angles (0-1 range)
+- Values close to 1 indicate maximum flexion/extension
+- Values close to 0 indicate minimum flexion/extension
+- The dataset shows natural hand movement variability
+- Some angles (like 1 and 2) are more constrained in movement
+- Other angles (like 10 and 13) show wider movement ranges
+
+This analysis provides a comprehensive view of the angles distribution
+in your dataset, useful for understanding data characteristics and
+potential preprocessing requirements for machine learning models.
+
+Generated: 2026-03-16

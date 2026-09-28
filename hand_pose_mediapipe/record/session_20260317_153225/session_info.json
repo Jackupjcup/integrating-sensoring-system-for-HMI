@@ -1,0 +1,30 @@
+{
+  "session_id": "session_20260317_153225",
+  "start_time": "2026-03-17T15:32:25.583757",
+  "camera_id": 0,
+  "video_codec": "XVID",
+  "video_fps": 30.0,
+  "num_hands": 2,
+  "fieldnames": [
+    "timestamp",
+    "frame_index",
+    "hand_index",
+    "hand_label",
+    "thumb_P",
+    "thumb_M",
+    "index_P",
+    "index_M",
+    "index_I",
+    "middle_P",
+    "middle_M",
+    "middle_I",
+    "ring_P",
+    "ring_M",
+    "ring_I",
+    "pinky_P",
+    "pinky_M",
+    "pinky_I"
+  ],
+  "end_time": "2026-03-17T15:33:50.253977",
+  "duration_seconds": 84.67022
+}

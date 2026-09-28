@@ -1,0 +1,84 @@
+{
+  "serial": {
+    "port": "COM7",
+    "baud_rate": 460800,
+    "timeout": 0.01,
+    "SAMPLING_RATE": 200
+  },
+  "mpu6050_1": {
+    "Gyro_params": {
+      "GYRO_SENSITIVITY": 16.4,
+      "GyroX_zero_bias": 0.04106282702508305,
+      "GyroY_zero_bias": 0.05120125103872445,
+      "GyroZ_zero_bias": -0.01727509668026156,
+      "GyroX_axis": 0,
+      "GyroY_axis": 1,
+      "GyroZ_axis": 2,
+      "GyroX_axis_coef": 1,
+      "GyroY_axis_coef": 1,
+      "GyroZ_axis_coef": 1
+    },
+    "Acc_params": {
+      "ACC_SENSITIVITY": 2048.0,
+      "GRAVITY": 9.8043,
+      "AccX_zero_bias": 0,
+      "AccY_zero_bias": 0,
+      "AccZ_zero_bias": 0
+    }
+  },
+  "mpu6050_2": {
+    "Gyro_params": {
+      "GYRO_SENSITIVITY": 16.4,
+      "GyroX_zero_bias": -0.06332139664247753,
+      "GyroY_zero_bias": -0.04445173004760258,
+      "GyroZ_zero_bias": 0.012524975437950567,
+      "GyroX_axis": 0,
+      "GyroY_axis": 1,
+      "GyroZ_axis": 2,
+      "GyroX_axis_coef": 1,
+      "GyroY_axis_coef": -1,
+      "GyroZ_axis_coef": 1
+    },
+    "Acc_params": {
+      "ACC_SENSITIVITY": 2048.0,
+      "GRAVITY": 9.8043,
+      "AccX_zero_bias": 0,
+      "AccY_zero_bias": 0,
+      "AccZ_zero_bias": 0
+    }
+  },
+  "mpu6050_3": {
+    "Gyro_params": {
+      "GYRO_SENSITIVITY": 16.4,
+      "GyroZ_sensitivity": 16.4,
+      "GyroX_zero_bias": -0.6950751471587512,
+      "GyroY_zero_bias": -0.04578996666108574,
+      "GyroZ_zero_bias": -0.028822469942180323,
+      "GyroX_axis": 0,
+      "GyroY_axis": 1,
+      "GyroZ_axis": 2,
+      "GyroX_axis_coef": 1,
+      "GyroY_axis_coef": -1,
+      "GyroZ_axis_coef": 1
+    },
+    "Acc_params": {
+      "ACC_SENSITIVITY": 2048.0,
+      "GRAVITY": 9.8043,
+      "AccX_zero_bias": 0,
+      "AccY_zero_bias": 0,
+      "AccZ_zero_bias": 0
+    }
+  },
+  "vpython_": {
+    "canvas": {
+      "title": "IMU Quaternion Attitude",
+      "width": 800,
+      "height": 600
+    },
+    "IMU_Box": {
+      "length": 0.5,
+      "height": 1.5,
+      "width": 0.2
+    }
+  }
+}

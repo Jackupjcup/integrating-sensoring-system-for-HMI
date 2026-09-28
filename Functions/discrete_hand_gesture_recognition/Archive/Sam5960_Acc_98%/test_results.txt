@@ -1,0 +1,2 @@
+Final Test Accuracy = 98.4899
+Best Test Accuracy  = 98.4899
