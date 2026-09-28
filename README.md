@@ -14,9 +14,9 @@ This repository contains the acquisition, processing, learning and visualization
 
 ## Demo
 
-[Watch / download the Hand Attitude Test Demo](FYP/Hand%20Attitude%20Test%20Demo.mp4)
+![Hand attitude demo: sensor-based arm tracking and Blender visualization](FYP/hand-attitude-demo.gif)
 
-The original MP4 is included in `FYP/`. If GitHub does not play it inline, use its **View raw** or **Download** button.
+[Watch / download the original full-resolution video](FYP/Hand%20Attitude%20Test%20Demo.mp4)
 
 ## Project poster
 
